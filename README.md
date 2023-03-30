@@ -1,4 +1,4 @@
-#Calculator using JavaScript Canvas Element
+# Calculator using JavaScript Canvas Element
 
 ### Name: Xinyue Zhang
 ### Email：zhang.xinyue12@northeastern.edu
