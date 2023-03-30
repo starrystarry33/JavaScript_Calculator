@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* #display{
+                height:150px;
+                color: white;
+                text-align: right;
+                width: 418px;
+                background-color: #383838;
+                overflow: hidden;
+                white-space: nowrap;
+                border-radius:12px 12px 0 0;
+            }
+            #inputs{
+                height: 60;
+                font-size: 30px;
+                margin-top: 30px;
+            }
+            #calc-display-val{
+                font-size: 50px;
+            } */
+            .calculate{
+                border-radius: 10px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <!-- <div class="row" id="display">
+            <div id="windows-button"></div>
+            <div id="inputs"></div>
+            <div id="calc-display-val"></div>        
+        </div> -->
+    <div class="calculate">
+        <div class="display1">
+            <canvas id="inputs"></canvas>
+        </div>
+
+        <div class="display2">
+            <canvas id="calc-display-val"></canvas>
+        </div>
+
+        <!-- <div class="row0" id="display">
+            <div id="inputs"></div>
+            <div id="calc-display-val"></div>        
+        </div> -->
+
+        <div class="row1">
+            <canvas class="calc-btn btn-grey column" id="calc-none1" ></canvas>
+            <canvas class="calc-btn btn-grey column" id="calc-none2" ></canvas>
+            <canvas class="calc-btn btn-grey column" id="calc-none3" ></canvas>
+            <canvas class="calc-btn btn-grey calc-btn-operator cal-btn-right column" id="calc-percent" >%</canvas>
+            <canvas class="calc-btn calc-btn-operator cal-btn-right column"id="calc-divide">/</canvas>
+         </div>
+        <div class="row2">
+            <canvas class="calc-btn calc-btn-operator column" id="calc-bracket-left">(</canvas>
+            <canvas class="calc-btn cal-btn-num column" id="calc-seven">7</canvas>
+            <canvas class="calc-btn cal-btn-num column" id="calc-eight">8</canvas>
+            <canvas class="calc-btn cal-btn-num column" id="calc-nine">9</canvas>
+            <canvas class="calc-btn calc-btn-operator cal-btn-right column"id="calc-multiply">x</canvas>
+         </div>
+        <div class="row3">
+            <canvas class="calc-btn calc-btn-operator column" id="calc-bracket-right">)</canvas>
+            <canvas class="calc-btn cal-btn-num column" id="calc-four">4</canvas>
+            <canvas class="calc-btn cal-btn-num column" id="calc-five">5</canvas>
+            <canvas class="calc-btn cal-btn-num column" id="calc-six">6</canvas>
+            <canvas class="calc-btn calc-btn-operator cal-btn-right column "id="calc-minus">-</canvas>
+        </div>
+        <div class="row4">
+            <canvas class="calc-btn cal-btn-left calc-btn-operator column" id="calc-back">Back</canvas>
+            <canvas class="calc-btn cal-btn-num column" id="calc-one">1</canvas>
+            <canvas class="calc-btn cal-btn-num column" id="calc-two">2</canvas>
+            <canvas class="calc-btn cal-btn-num column" id="calc-three">3</canvas>
+            <canvas class="calc-btn calc-btn-operator cal-btn-right column "id="calc-plus">+</canvas>
+        </div>
+        <div class="row5">
+            <canvas class="calc-btn cal-btn-num column" id="calc-zero">0</canvas>
+            <canvas class="calc-btn column" id="calc-decimal">.</canvas>
+            <canvas class="calc-btn cal-btn-right calc-btn-operator column" id="calc-equals">=</canvas>
+        </div>
+    </div>
+    
+        <!-- Add JavaScript at the end of the body tag -->
+        <script src="test.js"></script>
+           
+    </body>
+</html>
